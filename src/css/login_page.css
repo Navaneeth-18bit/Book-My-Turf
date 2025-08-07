@@ -1,13 +1,28 @@
 body
 {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
-.login_page_greeting
+.login_page
 {
 
-    text-align: center;
+    width: auto;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 9px;
+    display: flex;
+}
+
+
+.login_page_greeting
+{
+    
+
     margin-top: 50px;
     font-size: 24px;
     color: #333;
