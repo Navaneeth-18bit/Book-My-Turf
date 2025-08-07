@@ -1,5 +1,24 @@
 body
 {
     font-family: Arial, sans-serif;
-    
+
+}
+
+.login_page_greeting
+{
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login_page_form_input
+{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }

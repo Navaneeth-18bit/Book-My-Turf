@@ -13,17 +13,31 @@ function login_page()
             <div className='login_page_form'>
                 <form action="onsubmit">
                     <div className='login_page_form_input'>
-                        <label htmlFor="email">Email: </label>
-                        <input type="text" id='email' placeholder='Enter your username' />
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="" id="" placeholder='Enter your password' required/>
-                        <label htmlFor="checkbox">Show password</label>
-                        <input type="checkbox"></input>
-                        <button>Login</button>
+                        <div>
+                            <label htmlFor="email">Email: </label>
+                            <input type="text" id='email' placeholder='Enter your username' />
+                        </div>
+                        <div>
+                            <label htmlFor="password">Password</label>
+                            <input type="password" name="" id="" placeholder='Enter your password' required/>   
+                        </div>
+                        
+                        
+                        <div>
+                            <label htmlFor="checkbox">Show password</label>
+                            <input type="checkbox"></input>
+                        </div>
+                        
+                        <div>
+                            <button>Login</button>
+                        </div>
+                        
+                        <a href="">Forget Password</a>
                     </div>
+                    
                 </form>
                 
-                <a href="">Forget Password</a>
+                
             </div>
         </div>
         </>
