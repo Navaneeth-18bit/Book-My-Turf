@@ -72,6 +72,7 @@ input[type="password"]
     padding: 20px;
     margin-top: 20px;
     border-bottom: 2px solid #007bff; /* Add this line */
+    padding-right: 10px;
     
     
 
@@ -86,7 +87,7 @@ label
 .show_password
 {
     display: flex;
-    margin-bottom: 20px
+    margin-bottom:20px;
     
     
 }
@@ -104,12 +105,31 @@ input[type="checkbox"]
     display: block;
     margin-top: 20px;
     text-decoration: none;
-    color: #ffffff;
+    color: #961acf;
     
 }
 
 input[type="text"]
 {
     font-size: 19px;
+}
+
+.Forget-password
+{
+    text-align: center;
+}
+
+.Login-page-submit button
+{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 21px;
+
+}
+
+.Forget-password
+{
+    margin-bottom: 5px;
+    
 }
 

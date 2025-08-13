@@ -46,11 +46,14 @@ function login_page()
                             <input type="checkbox" id='showPassword' onClick={togglePassword}></input>
                         </div>
                         
-                        <div>
+                        <div className='Login-page-submit'>
                             <button>Login</button>
                         </div>
+
+                        
                         
                         <a href="" className='Forget-password'>Forget Password</a>
+                        <hr />
                     </div>
                     
                 </form>
