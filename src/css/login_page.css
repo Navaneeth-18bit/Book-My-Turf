@@ -1,3 +1,6 @@
+
+
+
 body
 {
     font-family: Arial, sans-serif;
@@ -17,16 +20,6 @@ body
     display: flex;
     gap: 20px;
     padding: 20px;
-    background: linear-gradient(270deg, #ff4d4d, #4d79ff, #4dff88);
-    animation: gradientFlow 12s ease infinite;
-    
-
-}
-
-@keyframes gradientFlow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
 
 .login_page_greeting
@@ -111,7 +104,7 @@ input[type="checkbox"]
     display: block;
     margin-top: 20px;
     text-decoration: none;
-    color: #007bff;
+    color: #ffffff;
     
 }
 
@@ -119,3 +112,4 @@ input[type="text"]
 {
     font-size: 19px;
 }
+
