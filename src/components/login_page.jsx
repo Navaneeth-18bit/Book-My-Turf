@@ -32,17 +32,17 @@ function login_page()
                 <form action="onsubmit">
                     <div className='login_page_form_input'>
                         <div>
-                            <label For="email">Email: </label>
+                            <label For="email" className='Gmail'>Username </label>
                             <input type="text" id='email' placeholder='Enter your username' required />
                         </div>
                         <div>
-                            <label For="password">Password</label>
+                            <label For="password" className='Password'>Password</label>
                             <input type="password" name="" id="password" placeholder='Enter your password' required/>   
                         </div>
                         
                         
-                        <div>
-                            <label For="showPassword">Show password</label>
+                        <div className='show_password'>
+                            <label For="showPassword" className='showpassword'>Show password</label>
                             <input type="checkbox" id='showPassword' onClick={togglePassword}></input>
                         </div>
                         
@@ -50,7 +50,7 @@ function login_page()
                             <button>Login</button>
                         </div>
                         
-                        <a href="">Forget Password</a>
+                        <a href="" className='Forget-password'>Forget Password</a>
                     </div>
                     
                 </form>

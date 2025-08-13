@@ -1,24 +1,33 @@
 body
 {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
+    display: flex;              /* Add this */
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically */
+    min-height: 100vh;          /* Full viewport height */
 }
 
 .login_page
 {
 
     width: auto;
-    height: 400px;
+    height: 800px;
     border: 2px solid;
-    border-radius: 9px;
+    border-radius: 2px;
     display: flex;
     gap: 20px;
+    padding: 20px;
+    background: linear-gradient(270deg, #ff4d4d, #4d79ff, #4dff88);
+    animation: gradientFlow 12s ease infinite;
+    
+
 }
 
+@keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 
 .login_page_greeting
 {
@@ -27,19 +36,86 @@ body
     margin-top: 50px;
     font-size: 24px;
     color: #333;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 20%;
 }
 
 .login_page_form_input
 {
-    width: 300px;
-    height: auto;
+    width: 500px;
+    height: 700px;
     margin: 0 auto;
+    margin-right: 5px;
+    margin-top: 20%;
     padding: 20px;
-    border: 1px solid #ccc;
+   
     border-radius: 5px;
-    background-color: #f9f9f9;
 
     position: relative;
-    top: 50px;
-    margin-right: 10px;
+}
+label
+{
+    font-size: 23px;;
+}
+
+button
+{
+    font-size: 23px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    width: 100%;
+    border: none;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #007bff; /* Add this line */
+    
+    
+
+}
+
+label
+{
+    margin-top: 20px;
+    display: block; 
+}
+
+.show_password
+{
+    display: flex;
+    margin-bottom: 20px
+    
+    
+}
+
+input[type="checkbox"]
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+
+}
+
+.Forget-password
+{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    
+}
+
+input[type="text"]
+{
+    font-size: 19px;
 }
