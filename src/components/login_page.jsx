@@ -54,6 +54,10 @@ function login_page()
                         
                         <a href="" className='Forget-password'>Forget Password</a>
                         <hr />
+
+                        <div className='Create-new-account'>
+                            <button>Create New Account</button>
+                        </div>
                     </div>
                     
                 </form>
