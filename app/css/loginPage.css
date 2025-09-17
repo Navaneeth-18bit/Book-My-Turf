@@ -1,0 +1,282 @@
+/* Make the body take full height and center content */
+@font-face {
+    font-family: 'poppins';
+    src: url('../assets/Poppins-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    background-color: #171717;
+    color: #ffff;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    height: 100vh;           /* full viewport height */
+    margin: 0;
+    font-family: 'poppins' ;               /* remove default body margin */
+}
+
+/* Login box styling */
+.login-container {
+
+    height: auto;
+    background-color: #353535;
+    width: 640px;            /* smaller width for better centering */
+    border-radius: 10px;
+    padding-bottom: 12px;    /* center content horizontally */
+  /* optional, better contrast */
+  overflow: hidden;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+    
+}
+
+/* Input fields */
+.Input-Field {
+    min-width: 500px;
+    height: 45px;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 0px 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: text;
+    color: #ffff;
+    font-family: inherit;
+    transition: border-color 0.3s;
+    
+    
+}
+
+.Input-Field:focus{
+    border-bottom: 2px solid #f2fffc;
+}
+/* Labels */
+label {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: block;
+    font-family: 'poppins';
+}
+
+.Login-Form{
+    max-width: 550px ;
+    padding-right: 15px;
+    width: 100%;
+    align-content: center;
+    padding: 20px;
+    margin-right: 52px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.Button-style-Login{
+    background-color: hsl(0, 0%, 100%);
+    color: #171717;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Login-Text h3{
+    text-align: center;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+.Login-Text p{
+    text-align: center;
+    margin: 0px;
+
+}
+
+.Login-Text{
+    gap: 0px;
+}
+
+.Button-style-Login{
+    padding: 10px;
+    color: #171717;
+    width: 540px;
+    font-family: inherit;
+    border-radius: 45px;
+}
+
+.Name-container{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.Checkbox-Container{
+    display: flex;
+    gap: 10px;
+    padding: 10px 12px;
+}
+
+.checkBox-styling{
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    border-radius: 75px;
+    cursor: pointer;
+    accent-color: #007bff
+}
+
+.Input-Field:hover{
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0,123,255,0.3);
+
+}
+
+.Input-Field-Name
+{
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 0px 12px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: text;
+    color: #ffff;
+    font-family: inherit;
+    transition: border-color 0.3s;
+    margin-right: 25px;
+}
+
+.Input-Field-Name:hover{
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0,123,255,0.3);
+}
+
+.Button-style-Google
+{
+    font-family: 'poppins';
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.google-auth-container button{
+    padding: 0px 65px;
+    margin: 10px auto 10px 10px;
+    height: 45px;
+    width: 540px;
+    margin-left: 40px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.google-auth-container{
+    margin-bottom: 25px;
+}
+
+.Divider
+{
+    color: #f2fffc;
+    width: 540px;
+    margin: 20px auto;
+}
+
+.Button-style-Login:hover{
+    background-color: #f2fffc;
+    box-shadow: 0 0 10px #007bff;
+}
+
+.Button-style-Google:hover{
+    background-color: #f2fffc;
+    box-shadow: 0 0 10px #007bff;
+}
+
+.checkBox-styling:hover{
+    box-shadow: 0 0 5px #007bff;
+    border-color: #f2fffc;
+}
+
+.google-auth-container span{
+    vertical-align: middle;
+    position: relative;
+    bottom: 4px;
+}
+
+@media (max-width: 400px) {
+    .Login-Text h3 {
+        font-size: 1.3rem;
+    }
+
+    .Login-Text p {
+        font-size: 0.85rem;
+    }
+
+    .Input-Field {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .Button-style {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+/* Toggle Switch Container */
+.toggle-container {
+  position: relative;
+  color: #fff;
+  width: 220px;
+  height: 45px;
+  margin: 20px auto;
+  background: #171717;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* Toggle Buttons */
+.toggle-btn {
+  flex: 1;
+  text-align: center;
+  z-index: 2;
+  font-weight: bold;
+  padding: 10px 0;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.toggle-btn.active {
+  color: #212121;
+}
+
+/* Slider Effect */
+.slider {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 105px;
+  height: 39px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.slider.right {
+  left: 112px;
+}
+
+

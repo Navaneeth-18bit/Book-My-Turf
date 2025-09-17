@@ -2,10 +2,9 @@
 
 import React from "react"
 
-const inputField = ({label, type, value, onChange, placeholder, name, ...rest}) => {
+const inputField = ({type, value, onChange, placeholder, name, ...rest}) => {
     return (
         <div>
-            <label>{label}</label>
             <input
             type={type}
             value = {value}
