@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+#hero-container{
+  background:transparent;
+  max-width: 850px;
+  width: 100%;
+  height: fit-content;
+  
+
+}
+
+h1{
+  
+  color:white;
+  background:transparent;
+  font-family: 'NeueMachina', sans-serif;
+  font-size: 7rem;
+  line-height: 1.1;
+
+}
+
+#hero-container h1 span {
+  
+  display: inline-block; /* so GSAP can scale/transform each letter */
+  background: transparent;
+  margin:0;
+  padding:0;
+}
+
+#hero-container h1{
+  letter-spacing: normal;
+  background: transparent;
+}
+
+#subhead{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: auto;
+  height: fit-content;
+  font-size: larger;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  
+}
+p{
+  color: white;
+}

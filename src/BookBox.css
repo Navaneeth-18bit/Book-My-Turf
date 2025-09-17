@@ -1,0 +1,70 @@
+#bookBox{
+  background: transparent;
+  width: auto;
+  height: fit-content;
+  border-radius: 24px;
+  margin-top: 24px;
+
+}
+
+#venue-inner{
+  padding: 10px;
+  padding-bottom: 24px;
+  width: 300px;
+  height: 330px;
+  border-radius: 24px;
+  background-color: #353535;
+}
+
+#venue-image{
+  background-color: white;
+  width:auto;
+  height: 180px;
+  border-radius: 16px;
+}
+
+#venue-place{
+  padding-top: 16px;
+  padding-left: 10px ;
+  padding-right: 24px;
+  background: transparent;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: large;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#venue-place-head{
+  background: transparent;
+  max-width: 200px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#rate-box{
+  
+  padding-right: 10px;
+  padding-left: 10px;
+  width: fit-content;
+  height: fit-content;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  
+}
+
+#venue-address{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 24px;
+  padding-left: 10px;
+  padding-right: 10px ;
+  background: transparent;
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 16px;
+}
+

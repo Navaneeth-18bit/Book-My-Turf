@@ -1,0 +1,136 @@
+
+
+.first-layer{
+  height: 90vh;
+  width: 100%;
+  display:flex;
+  margin-top: 40px;
+  background-color: #171717;
+
+}
+
+
+#blur-big001{
+  padding-left: 120px;
+  width: 100%;
+  height:auto;
+  display:flex;
+  align-items: center;
+  background-color: #171717;
+  
+}
+
+.blur-image-big{
+  
+  display: flex;
+  justify-content: center;
+  background-color: #171717;
+  width: 100%;
+  height: auto;
+  position: absolute;   /* allows layering */
+  z-index: 0;           /* background layer */
+  
+}
+
+.football-illustration {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background:transparent;
+  
+  position: absolute;   /* allows layering */
+  z-index: 1;
+}
+
+#hero-section{
+  position:absolute;
+  z-index: 2;
+  background: transparent;
+ 
+}
+
+.second-section{
+  width:100;
+  height: 100vh;
+  padding-left: 120px;
+  padding-right:120px;
+  
+}
+
+#book-venue{
+  padding-top: 32px;
+  padding-left:24px;
+  padding-bottom: 24px;
+  border-radius: 24px;
+  width: auto;
+  height: auto;
+  background-color: #1D1D1D;
+  color: white;
+  
+  
+}
+
+
+
+#book-venue-head{
+
+  
+  width: auto;
+  height: auto;
+  background-color: #1D1D1D;
+  color: white;
+  display: flex;
+  
+  
+
+}
+#book-head{
+  background: transparent;
+  width: fit-content;
+  font-family: 'NeueMachina', sans-serif;
+  font-size: larger;
+
+}
+
+#see-all-venues{
+  background: transparent;
+  width: fit-content;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  margin-left: auto;
+  padding-right: 24px;
+}
+
+#arrow{
+  background: transparent;
+}
+
+.bookboxes{
+  gap: 24px;
+  background: transparent;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+}
+
+.bookboxes::-webkit-scrollbar{
+  display: none;
+}
+
+
+.third-section{
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+
+}
+
+.specyfy-role{
+  color:white;
+}
+h2{
+  color: white;
+}

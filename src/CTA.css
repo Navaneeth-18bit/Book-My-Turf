@@ -1,0 +1,28 @@
+#cta-but {
+  display: flex;
+ /* centers vertically if parent has height */
+  margin-top: 20px;
+  font-family: 'NeueMachina', sans-serif;
+}
+
+.cta-button001 {
+  background-color: #ffffff;   /* light gray background */
+  color: #000;                 /* black text */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 12px;         /* rounded corners */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: 'NeueMachina', sans-serif;
+}
+
+.cta-button001:hover {
+  background-color: #ffffff;   /* green on hover */
+  color: #000000;
+  box-shadow: 0px 2px 6px rgb(255, 255, 255);
+  transform: translateY(-2px); /* small lift */
+}
